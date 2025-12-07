@@ -49,7 +49,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RSHIFT
-  - {t: TAB, h: NUMBERS}
+  - {t: Ctl+ LCMD, h: NUMBERS}
   - SPACE
   - {t: LEFT GUI, h: NAV-FUN}
   - {t: ENTER, h: NUMBERS}
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MAC:
-  - ESCAPE
+  - {t: ESCAPE, h: '`'}
   - '1'
   - '2'
   - '3'
@@ -183,19 +183,19 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
+  - {t: '-', h: '='}
   - TAB
   - Q
   - W
   - E
   - R
   - T
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Y
   - U
   - I
   - O
   - P
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - {t: '[', h: ']'}
   - DELETE
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
@@ -206,10 +206,10 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: RIGHT ALT}
-  - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - {t: ;, h: RIGHT CONTROL}
+  - ''''
   - LEFT SHIFT
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - {t: Z, h: SCROLL}
   - X
   - C
   - V
@@ -218,9 +218,9 @@ layers:
   - M
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - {t: /, h: SCROLL}
   - RSHIFT
-  - {t: TAB, h: MAC-NUM}
+  - {t: LCMD, h: MAC-NUM}
   - {t: SPACE, h: Gui+ LEFT ALT}
   - {t: LEFT GUI, h: MAC-NAV}
   - {t: ENTER, h: MAC-NUM}
@@ -551,7 +551,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
