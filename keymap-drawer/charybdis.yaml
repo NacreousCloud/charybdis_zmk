@@ -49,13 +49,13 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - {t: /, h: SCROLL}
   - RSHIFT
-  - {t: LCMD, h: MAC-NUM}
+  - LCMD
   - {t: SPACE, h: Ctl+ SPACE}
-  - {t: LEFT GUI, h: MAC-NAV}
   - {t: ENTER, h: MAC-NUM}
-  - {t: BACK SPACE, h: Alt+Ctl+ LEFT GUI}
-  - Gui+ SPACE
-  - Alt+ SPACE
+  - {t: ENTER, h: MAC-NUM}
+  - BACK SPACE
+  - LEFT ALT
+  - MAC-NAV
   - MAC-NAV
   MAC-NUM:
   - {t: ▽, type: trans}
@@ -106,9 +106,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - Alt+ ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - Alt+Sft+ 7
-  - {type: held}
-  - BACK SPACE
   - {t: ▽, type: trans}
+  - BACK SPACE
+  - {type: held}
   - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
@@ -165,11 +165,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Gui+ 5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
