@@ -172,7 +172,7 @@
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D       &kp F                 &kp G             &kp H        &kp J                            &kp K         &kp L          &hmr RIGHT_CONTROL SEMI  &kp APOS
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C       &kp V                 &kp B             &kp N        &kp M                            &kp DE_COMMA  &kp DE_PERIOD  &lt 3 FSLH               &kp RSHIFT
                                   &lt 1 LCMD  &hml LC(SPACE) SPACE  &lt 2 LEFT_GUI    &lt 1 ENTER  &hmr LA(LC(LEFT_GUI)) BACKSPACE
-                                              &mkp RCLK             &mkp LCLK         &mo 2
+                                              &kp LG(SPACE)         &kp LA(SPACE)     &mo 2
             >;
         };
 
@@ -183,7 +183,7 @@
 &kp DE_LESS_THAN              &kp DE_EXCLAMATION    &kp DE_DOUBLE_QUOTES      &hml DE_HASH DE_ASTERISK  &hml DE_CENT DE_C_CEDILLA       &kp DE_PERCENT    &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
 &hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL N1  &hml LEFT_ALT DE_SECTION  &hml LEFT_GUI DE_EQUAL    &hml LEFT_SHIFT LS(DE_SECTION)  &kp LA(N)         &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL LA(RETURN)  &hmr DE_BROKEN_BAR DE_PIPE
 &kp DE_CARET                  &trans                &kp DE_AT                 &hml LA(DE_N8) LA(DE_N5)  &hml LA(DE_N9) LA(DE_N6)        &kp DE_UMLAUT     &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp LA(DE_DOT)                 &kp LA(LS(NUMBER_7))
-                                                                              &trans                    &kp BACKSPACE                   &trans            &trans               &kp DE_N0
+                                                                              &trans                    &kp BACKSPACE                   &trans            &trans               &kp DEL
                                                                                                         &trans                          &trans            &trans
             >;
         };
@@ -191,12 +191,12 @@
         mac_lower_layer {
             label = "MAC-NAV";
             bindings = <
-&trans      &trans    &trans         &trans          &trans            &trans        &trans  &trans                &trans          &trans     &trans   &trans
-&kp ESCAPE  &kt F1    &kp F2         &kp F3          &kp F4            &kp F5        &kp F6  &kp F7                &kp F8          &kp F9     &kp F10  &kp F11
-&trans      &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans                &kp UP_ARROW    &trans     &trans   &kp F12
-&trans      &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &trans  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT  &trans   &trans
-                                     &trans          &trans            &trans        &trans  &kp LS(LG(NUMBER_5))
-                                                     &trans            &trans        &trans
+&kp ESC  &kp F1    &kp F2         &kp F3          &kp F4            &kp F5        &kp F6  &kp F7                &kp F8    &kp F9     &kp F10  &kp F11
+&trans   &trans    &trans         &trans          &trans            &trans        &trans  &trans                &kp UP    &trans     &trans   &kp F12
+&trans   &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &kp LEFT              &kp DOWN  &kp RIGHT  &trans   &trans
+&trans   &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &trans  &trans                &trans    &trans     &trans   &trans
+                                  &trans          &trans            &trans        &trans  &kp LS(LG(NUMBER_5))
+                                                  &trans            &trans        &trans
             >;
         };
 
