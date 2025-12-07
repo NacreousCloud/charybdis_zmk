@@ -54,8 +54,8 @@ layers:
   - {t: LEFT GUI, h: MAC-NAV}
   - {t: ENTER, h: MAC-NUM}
   - {t: BACK SPACE, h: Alt+Ctl+ LEFT GUI}
-  - R CLK
-  - L CLK
+  - Gui+ SPACE
+  - Alt+ SPACE
   - MAC-NAV
   MAC-NUM:
   - {t: ▽, type: trans}
@@ -110,25 +110,13 @@ layers:
   - BACK SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MAC-NAV:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ESCAPE
-  - {t: F1, h: toggle}
+  - ESC
+  - F1
   - F2
   - F3
   - F4
@@ -140,17 +128,29 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEV TOOLS
+  - {t: ▽, type: trans}
   - HOME
   - PAGE UP
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
   - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
-  - UP ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DEV TOOLS
   - {t: ▽, type: trans}
   - END
   - PAGE DOWN
@@ -158,9 +158,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
