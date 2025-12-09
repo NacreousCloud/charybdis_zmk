@@ -52,7 +52,7 @@ layers:
   - LCMD
   - SPACE
   - {t: ENTER, h: MAC-NUM}
-  - {t: Ctl+ SPACE, h: MAC-NUM}
+  - {t: BACK SPACE, h: MAC-NUM}
   - SPACE
   - LEFT ALT
   - MAC-NAV
@@ -110,7 +110,7 @@ layers:
   - BACK SPACE
   - {type: held}
   - {t: ▽, type: trans}
-  - BACK SPACE
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

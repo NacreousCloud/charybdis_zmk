@@ -171,7 +171,7 @@
 &kp TAB           &kp Q   &kp W   &kp E     &kp R         &kp T          &kp Y            &kp U      &kp I         &kp O          &kp P                    &mt RBKT LBKT
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F         &kp G          &kp H            &kp J      &kp K         &kp L          &hmr RIGHT_CONTROL SEMI  &kp APOS
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V         &kp B          &kp N            &kp M      &kp DE_COMMA  &kp DE_PERIOD  &lt 3 FSLH               &kp RSHIFT
-                                  &kp LCMD  &kp SPACE     &lt 1 ENTER    &lt 1 LC(SPACE)  &kp SPACE
+                                  &kp LCMD  &kp SPACE     &lt 1 ENTER    &lt 1 BACKSPACE  &kp SPACE
                                             &kp LEFT_ALT  &mo 2          &lt 2 ENTER
             >;
         };
@@ -183,7 +183,7 @@
 &kp DE_LESS_THAN  &kp DE_EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt DE_ASTERISK N8  &mt LPAR N9  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS
 &trans            &trans              &trans       &trans    &trans         &trans       &kp PLUS   &kp N4            &kp N5              &kp N6       &kp LS(CARET)          &kp BSLH
 &trans            &trans              &trans       &trans    &trans         &trans       &kp MINUS  &kp N1            &kp N2              &kp N3       &mt SLASH N0           &mt LS(LG(NUMBER_4)) LG(LS(NUMBER_3))
-                                                   &trans    &kp BACKSPACE  &trans       &trans     &kp BACKSPACE
+                                                   &trans    &kp BACKSPACE  &trans       &trans     &kp DELETE
                                                              &trans         &trans       &trans
             >;
         };
