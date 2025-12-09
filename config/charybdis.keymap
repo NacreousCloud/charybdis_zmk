@@ -89,7 +89,7 @@
         to-FN {
             bindings = <&to 4>;
             key-positions = <41 42>;
-            layers = <0>;
+            layers = <1>;
         };
 
         caps_word {
@@ -167,24 +167,24 @@
         default_mac_layer {
             label = "MAC";
             bindings = <
-&mt GRAVE ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4                &kp N5         &kp N6       &kp N7         &kp N8        &kp N9         &kp N0                   &mt EQUAL MINUS
-&kp TAB           &kp Q   &kp W   &kp E     &kp R                 &kp T          &kp Y        &kp U          &kp I         &kp O          &kp P                    &mt RBKT LBKT
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F                 &kp G          &kp H        &kp J          &kp K         &kp L          &hmr RIGHT_CONTROL SEMI  &kp APOS
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V                 &kp B          &kp N        &kp M          &kp DE_COMMA  &kp DE_PERIOD  &lt 3 FSLH               &kp RSHIFT
-                                  &kp LCMD  &hml LC(SPACE) SPACE  &lt 1 ENTER    &lt 1 ENTER  &kp BACKSPACE
-                                            &kp LEFT_ALT          &mo 2          &mo 2
+&mt GRAVE ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4        &kp N5         &kp N6           &kp N7     &kp N8        &kp N9         &kp N0                   &mt EQUAL MINUS
+&kp TAB           &kp Q   &kp W   &kp E     &kp R         &kp T          &kp Y            &kp U      &kp I         &kp O          &kp P                    &mt RBKT LBKT
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F         &kp G          &kp H            &kp J      &kp K         &kp L          &hmr RIGHT_CONTROL SEMI  &kp APOS
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V         &kp B          &kp N            &kp M      &kp DE_COMMA  &kp DE_PERIOD  &lt 3 FSLH               &kp RSHIFT
+                                  &kp LCMD  &kp SPACE     &lt 1 ENTER    &lt 1 LC(SPACE)  &kp SPACE
+                                            &kp LEFT_ALT  &mo 2          &lt 2 ENTER
             >;
         };
 
         mac_raise_layer {
             label = "MAC-NUM";
             bindings = <
-&trans                        &trans                &trans                    &trans                    &trans                          &trans            &trans               &trans                  &trans                          &trans                           &trans                         &trans
-&kp DE_LESS_THAN              &kp DE_EXCLAMATION    &kp DE_DOUBLE_QUOTES      &hml DE_HASH DE_ASTERISK  &hml DE_CENT DE_C_CEDILLA       &kp DE_PERCENT    &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
-&hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL N1  &hml LEFT_ALT DE_SECTION  &hml LEFT_GUI DE_EQUAL    &hml LEFT_SHIFT LS(DE_SECTION)  &kp LA(N)         &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL LA(RETURN)  &hmr DE_BROKEN_BAR DE_PIPE
-&kp DE_CARET                  &trans                &kp DE_AT                 &hml LA(DE_N8) LA(DE_N5)  &hml LA(DE_N9) LA(DE_N6)        &kp DE_UMLAUT     &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp LA(DE_DOT)                 &kp LA(LS(NUMBER_7))
-                                                                              &trans                    &kp BACKSPACE                   &trans            &trans               &kp DEL
-                                                                                                        &trans                          &trans            &trans
+&kp TILDE         &trans              &trans       &trans    &trans         &trans       &trans     &trans            &trans              &trans       &trans                 &trans
+&kp DE_LESS_THAN  &kp DE_EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt DE_ASTERISK N8  &mt LPAR N9  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS
+&trans            &trans              &trans       &trans    &trans         &trans       &kp PLUS   &kp N4            &kp N5              &kp N6       &kp LS(CARET)          &kp BSLH
+&trans            &trans              &trans       &trans    &trans         &trans       &kp MINUS  &kp N1            &kp N2              &kp N3       &mt SLASH N0           &mt LS(LG(NUMBER_4)) LG(LS(NUMBER_3))
+                                                   &trans    &kp BACKSPACE  &trans       &trans     &kp BACKSPACE
+                                                             &trans         &trans       &trans
             >;
         };
 
@@ -202,12 +202,12 @@
 
         scroll_layer {
             bindings = <
-&trans  &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
-&trans  &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
-&trans  &trans  &trans          &trans  &kp LEFT_SHIFT  &trans    &trans  &kp RIGHT_SHIFT  &trans  &trans           &trans  &trans
-&trans  &trans  &kp LEFT_SHIFT  &trans  &trans          &trans    &trans  &trans           &trans  &kp RIGHT_SHIFT  &trans  &trans
-                                &trans  &trans          &trans    &trans  &trans
-                                        &trans          &trans    &trans
+&trans  &trans  &trans              &trans        &trans         &trans    &trans  &trans        &trans         &trans               &trans  &trans
+&trans  &trans  &trans              &kp LC(UP)    &trans         &trans    &trans  &kp RC(LEFT)  &kp PAGE_UP    &kp LC(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN)  &kp LC(RIGHT)  &trans    &trans  &kp HOME      &kp PAGE_DOWN  &kp END              &trans  &trans
+&trans  &trans  &kp LEFT_SHIFT      &trans        &trans         &trans    &trans  &trans        &trans         &kp RIGHT_SHIFT      &trans  &trans
+                                    &trans        &trans         &trans    &trans  &trans
+                                                  &trans         &trans    &trans
             >;
 
             label = "SCROLL";
