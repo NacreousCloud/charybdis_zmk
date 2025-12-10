@@ -184,7 +184,7 @@
 &kp DE_LESS_THAN  &kp DE_EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt DE_ASTERISK N8  &mt LPAR N9  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS
 &trans            &trans              &trans       &trans    &trans         &trans       &kp PLUS   &kp N4            &kp N5              &kp N6       &kp LS(CARET)          &kp BSLH
 &trans            &trans              &trans       &trans    &trans         &trans       &kp MINUS  &kp N1            &kp N2              &kp N3       &mt SLASH N0           &mt LS(LG(NUMBER_4)) LG(LS(NUMBER_3))
-                                                   &trans    &kp BACKSPACE  &trans       &trans     &none
+                                                   &trans    &kp BACKSPACE  &trans       &trans     &trans
                                                              &trans         &trans       &trans
             >;
         };
