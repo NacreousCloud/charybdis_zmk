@@ -286,7 +286,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [41, 42]
+- p: [54, 55]
   k: {t: FN, h: toggle}
   l: [MAC-NUM]
 - p: [31, 28]
