@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: ;, h: RIGHT CONTROL}
-  - ''''
+  - {t: '''', h: NUBS}
   - LEFT CONTROL
   - Z
   - X
@@ -105,7 +105,7 @@ layers:
   - '2'
   - '3'
   - {t: '0', h: .}
-  - {t: Gui+Sft+ 3, h: Sft+Gui+ 4}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACK SPACE
   - {type: held}
@@ -161,8 +161,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+ 3
+  - Sft+Gui+ 4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -223,8 +223,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACK
+  - FWD
   - {t: ▽, type: trans}
   - FN
   - {t: ▽, type: trans}
