@@ -51,9 +51,9 @@ layers:
   - RSHIFT
   - LCMD
   - SPACE
-  - {t: ENTER, h: MAC-NUM}
+  - {t: Ctl+ SPACE, h: MAC-NUM}
   - {t: SPACE, h: MAC-NUM}
-  - BACK SPACE
+  - {t: BACK SPACE, h: MAC-NUM}
   - LEFT ALT
   - MAC-NAV
   - {t: ENTER, h: MAC-NAV}
@@ -110,7 +110,7 @@ layers:
   - BACK SPACE
   - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ LEFT
-  - PAGE UP
-  - Ctl+ RIGHT
+  - {t: ▽, type: trans}
+  - Alt+Ctl+ UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,9 +203,9 @@ layers:
   - Ctl+ RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
-  - PAGE DOWN
-  - END
+  - Alt+Ctl+Gui+ LEFT
+  - Alt+Ctl+ DOWN
+  - Alt+Ctl+Gui+ RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,10 +265,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bl BL_TOG'
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - '&bl BL_CYCLE'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
