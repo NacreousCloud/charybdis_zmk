@@ -162,12 +162,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Gui+ 3
-  - Sft+Gui+ 4
+  - {t: Sft+Gui+ 4, h: Sft+Gui+ 5}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Gui+ 5
+  - DELETE
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
