@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: ;, h: RIGHT CONTROL}
-  - {t: '''', h: NUBS}
+  - {t: '''', h: \}
   - LEFT CONTROL
   - Z
   - X
@@ -53,24 +53,24 @@ layers:
   - SPACE
   - {t: Ctl+ SPACE, h: MAC-NUM}
   - {t: SPACE, h: MAC-NUM}
-  - {t: BACK SPACE, h: MAC-NUM}
+  - BACK SPACE
   - LEFT ALT
   - MAC-NAV
   - {t: ENTER, h: MAC-NAV}
   MAC-NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
   - '@'
   - '#'
@@ -83,10 +83,10 @@ layers:
   - )
   - {t: '-', h: '='}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: <, h: '>'}
+  - {t: (, h: )}
+  - {t: '{', h: '}'}
+  - {t: '[', h: ']'}
   - {t: ▽, type: trans}
   - +
   - '4'
@@ -95,22 +95,22 @@ layers:
   - /
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - '*'
+  - +
+  - '-'
   - {t: ▽, type: trans}
   - '-'
   - '1'
   - '2'
   - '3'
-  - {t: '0', h: .}
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACK SPACE
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,50 +127,50 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - DEV TOOLS
-  - {t: ▽, type: trans}
+  - ''
   - HOME
   - PAGE UP
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
-  - {t: ▽, type: trans}
+  - ''
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - END
   - PAGE DOWN
-  - {t: ▽, type: trans}
+  - ''
   - VOLUME DOWN
   - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - Sft+Gui+ 3
   - {t: Sft+Gui+ 4, h: Sft+Gui+ 5}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - DELETE
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,10 +190,10 @@ layers:
   - Ctl+ UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+ UP
+  - Ctl+ LEFT
   - Alt+Ctl+ UP
-  - {t: ▽, type: trans}
+  - Ctl+ RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - Ctl+ DOWN
   - Ctl+ RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+ DOWN
   - Alt+Ctl+Gui+ LEFT
   - Alt+Ctl+ DOWN
   - Alt+Ctl+Gui+ RIGHT
@@ -303,5 +303,3 @@ combos:
   k: R CLK
 - p: [38, 39, 40]
   k: M CLK
-- p: [24, 25]
-  k: CAPSLOCK
