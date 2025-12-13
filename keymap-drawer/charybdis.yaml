@@ -53,9 +53,9 @@ layers:
   - SPACE
   - {t: Ctl+ SPACE, h: MAC-NUM}
   - {t: SPACE, h: RCMD}
-  - {t: SPACE, h: MAC-NUM}
+  - {t: BACK SPACE, h: MAC-NUM}
   - LEFT ALT
-  - MAC-NAV
+  - BACK SPACE
   - {t: ENTER, h: MAC-NAV}
   MAC-NUM:
   - {t: ▽, type: trans}
@@ -107,10 +107,10 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACK SPACE
+  - DELETE
   - {type: held}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,8 +169,8 @@ layers:
   - ''
   - DELETE
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
