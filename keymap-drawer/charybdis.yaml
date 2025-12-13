@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '-', h: '='}
+  - BACK SPACE
   - TAB
   - Q
   - W
@@ -53,7 +53,7 @@ layers:
   - SPACE
   - {t: Ctl+ SPACE, h: MAC-NUM}
   - {t: SPACE, h: MAC-NUM}
-  - BACK SPACE
+  - RCMD
   - LEFT ALT
   - MAC-NAV
   - {t: ENTER, h: MAC-NAV}
@@ -69,7 +69,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - '~'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
   - '@'
@@ -100,7 +100,7 @@ layers:
   - +
   - '-'
   - {t: ▽, type: trans}
-  - '-'
+  - '0'
   - '1'
   - '2'
   - '3'
