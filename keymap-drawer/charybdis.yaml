@@ -52,8 +52,8 @@ layers:
   - LCMD
   - SPACE
   - {t: Ctl+ SPACE, h: MAC-NUM}
+  - {t: SPACE, h: RCMD}
   - {t: SPACE, h: MAC-NUM}
-  - RCMD
   - LEFT ALT
   - MAC-NAV
   - {t: ENTER, h: MAC-NAV}
