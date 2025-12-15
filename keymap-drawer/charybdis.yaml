@@ -285,12 +285,238 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  window:
+  - {t: ESCAPE, h: '`'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACK SPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', h: ']'}
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: RIGHT CONTROL}
+  - {t: '''', h: \}
+  - LEFT GUI
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - {t: /, h: WIN-SCROLL}
+  - RSHIFT
+  - LCMD
+  - SPACE
+  - {t: LANG1, h: WIN-NUM}
+  - {t: SPACE, h: RCMD}
+  - {t: BACK SPACE, h: WIN-NUM}
+  - LEFT ALT
+  - BACK SPACE
+  - {t: ENTER, h: WIN-NAV}
+  WIN-NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - '~'
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - {t: '7', h: '&'}
+  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_3_AND_HASH))) N8'
+  - {t: '9', h: (}
+  - )
+  - {t: '-', h: '='}
+  - {t: ▽, type: trans}
+  - {t: <, h: '>'}
+  - {t: (, h: )}
+  - {t: '{', h: '}'}
+  - {t: '[', h: ']'}
+  - {t: ▽, type: trans}
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - \
+  - {t: ▽, type: trans}
+  - /
+  - '*'
+  - +
+  - '-'
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  WIN-NAV:
+  - ESC
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - DEV TOOLS
+  - ''
+  - HOME
+  - PAGE UP
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - END
+  - PAGE DOWN
+  - ''
+  - VOLUME DOWN
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+ 3
+  - {t: Sft+Gui+ 4, h: Sft+Gui+ 5}
+  - ''
+  - ''
+  - ''
+  - ''
+  - DELETE
+  - ''
+  - ''
+  - {type: held}
+  WIN-SCROLL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ UP
+  - Gui+ LEFT
+  - Alt+Ctl+ UP
+  - Gui+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ LEFT
+  - Gui+ DOWN
+  - Gui+ RIGHT
+  - {t: ▽, type: trans}
+  - Gui+ DOWN
+  - Alt+Ctl+Gui+ LEFT
+  - Alt+Ctl+ DOWN
+  - Alt+Ctl+Gui+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACK
+  - FWD
+  - {t: ▽, type: trans}
+  - FN
+  - {t: ▽, type: trans}
 combos:
 - p: [54, 55]
   k: FN
   l: [MAC-NUM]
-- p: [31, 28]
-  k: CAPS WORD
 - p: [43, 44]
   k: L CLK
 - p: [44, 45]
@@ -303,3 +529,7 @@ combos:
   k: R CLK
 - p: [38, 39, 40]
   k: M CLK
+- p: [0, 11]
+  k: {t: window, h: toggle}
+- p: [0, 23]
+  k: {t: MAC, h: toggle}
