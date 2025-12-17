@@ -181,12 +181,12 @@
         mac_raise_layer {
             label = "MAC-NUM";
             bindings = <
-&trans     &trans              &trans         &trans         &trans         &trans       &trans     &trans            &trans              &trans       &trans                 &kp DELETE
-&kp TILDE  &kp DE_EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt DE_ASTERISK N8  &mt LPAR N9  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS
-&trans     &mt GT LT           &mt RPAR LPAR  &mt RBRC LBRC  &mt RBKT LBKT  &trans       &kp PLUS   &kp N4            &kp N5              &kp N6       &kp FSLH               &kp BSLH
-&trans     &kp SLASH           &kp ASTRK      &kp PLUS       &kp MINUS      &trans       &kp N0     &kp N1            &kp N2              &kp N3       &kp DOT                &trans
-                                              &trans         &kp DELETE     &trans       &trans     &trans
-                                                             &trans         &trans       &trans
+&trans     &trans     &trans         &trans         &trans         &trans       &trans     &trans            &trans              &trans       &trans                 &kp DELETE
+&kp TILDE  &kp EXCL   &kp AT_SIGN    &kp HASH       &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt DE_ASTERISK N8  &mt LPAR N9  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS
+&trans     &mt GT LT  &mt RPAR LPAR  &mt RBRC LBRC  &mt RBKT LBKT  &trans       &kp PLUS   &kp N4            &kp N5              &kp N6       &kp FSLH               &kp BSLH
+&trans     &kp SLASH  &kp ASTRK      &kp PLUS       &kp MINUS      &trans       &kp N0     &kp N1            &kp N2              &kp N3       &kp DOT                &trans
+                                     &trans         &kp DELETE     &trans       &trans     &trans
+                                                    &trans         &trans       &trans
             >;
         };
 
