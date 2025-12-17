@@ -204,12 +204,12 @@
 
         scroll_layer {
             bindings = <
-&trans  &trans  &trans              &trans        &trans         &trans    &trans        &trans                      &trans            &trans                 &trans  &trans
-&trans  &trans  &trans              &kp LC(UP)    &trans         &trans    &kp LC(UP)    &kp LC(LEFT_ARROW)          &kp LA(LC(UP))    &kp LC(RIGHT_ARROW)    &trans  &trans
-&trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN)  &kp LC(RIGHT)  &trans    &kp LC(DOWN)  &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(DOWN))  &kp LA(LC(LG(RIGHT)))  &trans  &trans
-&trans  &trans  &kp LEFT_SHIFT      &trans        &trans         &trans    &trans        &trans                      &trans            &kp RIGHT_SHIFT        &trans  &trans
-                                    &trans        &trans         &trans    &mkp MB4      &mkp MB5
-                                                  &trans         &mo 4     &trans
+&trans  &trans  &trans              &trans        &trans         &trans    &trans             &trans                      &trans            &trans                 &trans  &trans
+&trans  &trans  &trans              &kp LC(UP)    &trans         &trans    &kp LC(UP)         &kp LC(LEFT_ARROW)          &kp LA(LC(UP))    &kp LC(RIGHT_ARROW)    &trans  &trans
+&trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN)  &kp LC(RIGHT)  &trans    &kp LC(DOWN)       &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(DOWN))  &kp LA(LC(LG(RIGHT)))  &trans  &trans
+&trans  &trans  &kp LEFT_SHIFT      &trans        &trans         &trans    &trans             &trans                      &trans            &kp RIGHT_SHIFT        &trans  &trans
+                                    &trans        &trans         &trans    &mkp MB4           &mkp MB5
+                                                  &trans         &mo 4     &kp LC(LA(ENTER))
             >;
 
             label = "SCROLL";
@@ -263,7 +263,7 @@
             >;
         };
 
-        layer_8 {
+        scroll_layer_win {
             label = "WIN-SCROLL";
             bindings = <
 &trans  &trans  &trans              &trans        &trans         &trans    &trans        &trans                      &trans            &trans                 &trans  &trans

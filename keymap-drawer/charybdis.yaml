@@ -227,7 +227,7 @@ layers:
   - FWD
   - {t: ▽, type: trans}
   - FN
-  - {t: ▽, type: trans}
+  - Ctl+Alt+ ENTER
   FN:
   - EP TOG
   - {t: ▽, type: trans}
