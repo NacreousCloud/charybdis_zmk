@@ -24,17 +24,17 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: ']'}
+  - '|'
   - LEFT SHIFT
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT CONTROL}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LCMD}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RCMD}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT CONTROL}
   - {t: '''', h: \}
   - LEFT CONTROL
@@ -52,11 +52,11 @@ layers:
   - LCMD
   - SPACE
   - {t: Ctl+ SPACE, h: MAC-NUM}
-  - {t: SPACE, h: RCMD}
+  - {t: SPACE, h: MAC-NAV}
   - {t: BACK SPACE, h: MAC-NUM}
   - LEFT ALT
   - BACK SPACE
-  - {t: ENTER, h: MAC-NAV}
+  - ENTER
   MAC-NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,11 +166,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - DELETE
   - ''
   - ''
-  - {type: held}
+  - ''
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
