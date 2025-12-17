@@ -356,7 +356,7 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - '~'
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
+  - '!'
   - '@'
   - '#'
   - $
