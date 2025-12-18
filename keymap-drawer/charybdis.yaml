@@ -127,7 +127,7 @@ layers:
   - F9
   - F10
   - F11
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -139,7 +139,7 @@ layers:
   - ''
   - ''
   - DEV TOOLS
-  - ''
+  - {t: ▽, type: trans}
   - HOME
   - PAGE UP
   - PREVIOUS
@@ -151,7 +151,7 @@ layers:
   - RIGHT
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - END
   - PAGE DOWN
   - ''
@@ -163,13 +163,13 @@ layers:
   - ''
   - Sft+Gui+ 3
   - {t: Sft+Gui+ 4, h: Sft+Gui+ 5}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - DELETE
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   SCROLL:
   - {t: ▽, type: trans}
