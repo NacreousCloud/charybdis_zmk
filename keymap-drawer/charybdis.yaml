@@ -26,16 +26,16 @@ layers:
   - P
   - '|'
   - LEFT SHIFT
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LCMD}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RCMD}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT CONTROL}
+  - J
+  - K
+  - L
+  - ;
   - {t: '''', h: \}
   - LEFT CONTROL
   - Z
@@ -78,7 +78,7 @@ layers:
   - '%'
   - ^
   - {t: '7', h: '&'}
-  - '&mt (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_3_AND_HASH))) N8'
+  - {t: '8', h: '*'}
   - {t: '9', h: (}
   - )
   - {t: '-', h: '='}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
+  - PG UP
   - VOLUME UP
   - ''
   - ''
@@ -140,11 +140,11 @@ layers:
   - ''
   - DEV TOOLS
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
-  - PAGE UP
-  - PREVIOUS
+  - PG DN
+  - END
   - PLAY PAUSE
-  - NEXT
   - ''
   - LEFT
   - DOWN
@@ -152,9 +152,9 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - END
-  - PAGE DOWN
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOLUME DOWN
   - MUTE
   - ''
