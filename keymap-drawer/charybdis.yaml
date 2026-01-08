@@ -322,7 +322,7 @@ layers:
   - L
   - {t: ;, h: RIGHT CONTROL}
   - {t: '''', h: \}
-  - LEFT GUI
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -337,11 +337,11 @@ layers:
   - LCMD
   - SPACE
   - {t: LANG1, h: WIN-NUM}
-  - {t: SPACE, h: RCMD}
+  - {t: SPACE, h: WIN-NAV}
   - {t: BACK SPACE, h: WIN-NUM}
   - LEFT ALT
   - BACK SPACE
-  - {t: ENTER, h: WIN-NAV}
+  - ENTER
   WIN-NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -451,11 +451,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - DELETE
   - ''
   - ''
-  - {type: held}
+  - ''
   WIN-SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
