@@ -184,7 +184,7 @@
 &trans     &trans           &trans         &trans         &trans         &trans       &trans     &trans            &trans       &trans       &trans          &kp DELETE
 &kp TILDE  &hml TILDE EXCL  &kp AT_SIGN    &kp HASH       &kp DLLR       &kp PRCNT    &kp CARET  &mt AMPERSAND N7  &mt STAR N8  &mt LPAR N9  &kp EQUAL       &mt EQUAL MINUS
 &trans     &mt GT LT        &mt RPAR LPAR  &mt RBRC LBRC  &mt RBKT LBKT  &kp GRAVE    &kp PLUS   &kp N4            &kp N5       &kp N6       &hmr BSLH FSLH  &kp BSLH
-&trans     &kp SLASH        &kp ASTRK      &kp PLUS       &kp MINUS      &trans       &kp N0     &kp N1            &kp N2       &kp N3       &kp DOT         &trans
+&trans     &kp SLASH        &kp ASTRK      &kp PLUS       &kp MINUS      &kp APOS     &kp N0     &kp N1            &kp N2       &kp N3       &kp DOT         &trans
                                            &trans         &kp DELETE     &trans       &trans     &trans
                                                           &trans         &trans       &trans
             >;
