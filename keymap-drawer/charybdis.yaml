@@ -26,16 +26,16 @@ layers:
   - P
   - '|'
   - LEFT SHIFT
-  - A
-  - S
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LCTRL}
   - D
   - F
   - G
   - H
   - J
   - K
-  - L
-  - ;
+  - {t: L, h: LCTRL}
+  - {t: ;, h: LEFT SHIFT}
   - {t: '''', h: \}
   - LEFT CONTROL
   - Z
@@ -51,12 +51,12 @@ layers:
   - RSHIFT
   - LCMD
   - SPACE
-  - {t: Ctl+ SPACE, h: MAC-NUM}
-  - {t: SPACE, h: MAC-NAV}
+  - {t: Ctl+ SPACE, h: LEFT ALT}
+  - {t: ENTER, h: MAC-NAV}
   - {t: BACK SPACE, h: MAC-NUM}
   - LEFT ALT
   - BACK SPACE
-  - ENTER
+  - {t: ENTER, h: RIGHT SHIFT}
   MAC-NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - '~'
-  - '!'
+  - {t: '!', h: '~'}
   - '@'
   - '#'
   - $
@@ -80,7 +80,7 @@ layers:
   - {t: '7', h: '&'}
   - {t: '8', h: '*'}
   - {t: '9', h: (}
-  - )
+  - '='
   - {t: '-', h: '='}
   - {t: ▽, type: trans}
   - {t: <, h: '>'}
@@ -92,7 +92,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - /
+  - {t: /, h: \}
   - \
   - {t: ▽, type: trans}
   - /
@@ -108,9 +108,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -206,7 +206,7 @@ layers:
   - Alt+Ctl+Gui+ LEFT
   - Alt+Ctl+ DOWN
   - Alt+Ctl+Gui+ RIGHT
-  - {t: ▽, type: trans}
+  - Ctl+Alt+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
